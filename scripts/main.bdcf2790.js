@@ -1,0 +1,1 @@
+$(document).ready(function(){"use strict";$("a").smoothScroll(),$(document).scroll(function(){var a=$(this).scrollTop(),b=$("#navigation").position();$("nav").css(a>b.top?{position:"fixed",top:"0"}:{position:"static",top:"auto"})})});
